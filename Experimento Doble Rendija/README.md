@@ -100,10 +100,10 @@ https://git-scm.com/downloads.
 ### Pruebas del programa 
 
 Las pruebas en un programa son muy importantes, tanto es asi que estas permiten verificar que las funcionalidades del programa se cumplen en cada iteración correctamente.
-Para este caso se usa la libreria de python  **unittest**; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es  importada con la linea de codigo **import unittest** que se encuentra en classicalToQuantumTest.py ,en este .py se encontraran  pruebas por cada una de las funciones implementadas sobre sistemas.
+Para este caso se usa la libreria de python  **unittest**; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es  importada con la linea de codigo **import unittest** que se encuentra en Test.py ,en este .py se encontraran  pruebas por cada una de las funciones implementadas sobre sistemael experimento de doble rendija.
 
 
-- **Prueba**:  Prueba asociada al experimento #3, la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
+- **Prueba**:  Prueba  la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
 
 ```
 def testExperimentBooleanMatrix( self  ):
@@ -111,7 +111,11 @@ def testExperimentBooleanMatrix( self  ):
 	vectIni = [...]
 
         self.assertEqual(experimentBooleanMatrix( 1 ,booleanMatrix[:], vectIni[:]  ),
-                         [False, True, True, False, False, False] )
+                         [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                          [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                          [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                          [0.16, 0.33, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0],
+			  [........])
 ```
 
 
@@ -137,11 +141,11 @@ cd Experimento Doble Rendija
 ```
 
 
-## Autor
+## Autores
 
 **Iván Camilo Rincón Saavedra** - *Latest Commmit* - [Rincon10](https://github.com/Rincon10)
 **Nicolas Torres Paez**
-** **
+**Lorenzo Marquez Pinto **
 
 
 
