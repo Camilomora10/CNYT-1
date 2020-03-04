@@ -35,11 +35,13 @@ Antes de mostrar la forma en que se desarrollo  el experimento se mencionaran lo
 -Con el marcador, rayamos la rendija para que al realizar el experimento no pasen los fotones a traves del papel
 
 El resultado de estos pasos es como el que se muestra en la imagen:
-![image](https://user-images.githubusercontent.com/53798019/75842725-23cc5b80-5d9f-11ea-8f11-7dcc23233e54.png)
+![image](https://user-images.githubusercontent.com/53798019/75843488-48c1ce00-5da1-11ea-9ef0-99a95b922e55.png)
 
-![image](https://user-images.githubusercontent.com/53798019/75843286-cb965900-5da0-11ea-9faa-a09d28d53d30.png)
 
-![image](https://user-images.githubusercontent.com/53798019/75842736-2fb81d80-5d9f-11ea-88ff-80d75b00ffa1.png)
+![image](https://user-images.githubusercontent.com/53798019/75843715-d0a7d800-5da1-11ea-9833-04c4231fb213.png)
+
+
+![image](https://user-images.githubusercontent.com/53798019/75843793-19f82780-5da2-11ea-862e-f2eca95cb03b.png)
 
 
 
