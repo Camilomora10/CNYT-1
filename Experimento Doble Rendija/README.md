@@ -1,17 +1,50 @@
-﻿## classicalToQuantum
+﻿## Experimento de la doble rendija
 
-En este programa se realizo la implementacion sobre los diferentes experimentos sobre sistemas, como :
-- Experimento del sistema determinista cuyo valor de las canicas son de tipo **Booleanos**
-- Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
-- Experimento de las múltiples rendijas cuántico.
+# Inicios
+El experimento de la doble rendija fue planteado originalmente en 1801 por Thomas Young y lo hizo con la intención de determinar si la luz se comportaba como onda o como partícula.
 
 
-de manera adicional, la libreria poseera una funcion que sera capaz de graficar con un diagrama de barras  las probabilidades de un vector de estados de un sistema.
+En la siguiente imagen se pude observar cómo es el comportamiento de las partículas vs el comportamiento de las ondas realizando el mismo experimento.
+
+![image](https://user-images.githubusercontent.com/53798019/75840496-5ecb9080-5d99-11ea-9e36-2c4ad91a21b4.png)
+
+es importante recalcar dichos comportamientos, ya que los patrones que generan ambos discrepan.
 
 
-## Empezando
+## Experimento Casero
 
-Antes de empezar se debe tener en cuenta la forma en que los sistemas seran representados, cada sistema tendra una matriz de adyacencia asociada y un vector el cual representara el estado inicial del sistema, donde sus posiciones representaran el peso de  una  conexion especifica entre componentes del sistema, a continuacion se mostrar un ejemplo de un sistema deterministico.
+Antes de mostrar la forma en que se desarrollo  el experimento se mencionaran los materiales que fueron utilizados para este experimento:
+
+**Materiales:**
+- 1/4 de cartoon paja 
+- bisturi
+- laser
+- regla 
+- papel 
+- marcador de color negro
+
+
+# Empezando
+
+- Se realizaron cortes al carton paja, para crear un  soporte en el cual se colocaria el laser, este soporte a su vez se fijaria a una base para que no se moviera.
+
+- Luego con una forma rectagular se corta un pedazo de carton paja el cual se tomara como soporte para la rendija y este tambien estara fijo a la base.
+
+- Para la construccion de la rendija cortamos un pedazo de papel con forma de rectangulo y realizamos dos cortes finos con el bisturi de forma paralela *(los cuales representaran la doble rendija)*
+
+-Con el marcador, rayamos la rendija para que al realizar el experimento no pasen los fotones a traves del papel
+
+El resultado de estos pasos es como el que se muestra en la imagen:
+![image](https://user-images.githubusercontent.com/53798019/75842725-23cc5b80-5d9f-11ea-8f11-7dcc23233e54.png)
+
+![image](https://user-images.githubusercontent.com/53798019/75843286-cb965900-5da0-11ea-9faa-a09d28d53d30.png)
+
+![image](https://user-images.githubusercontent.com/53798019/75842736-2fb81d80-5d9f-11ea-88ff-80d75b00ffa1.png)
+
+
+
+
+
 
 ## Sistema 
 ![image](https://user-images.githubusercontent.com/53798019/75600835-61b93f00-5a82-11ea-9b08-d9b01abfdc87.png)
