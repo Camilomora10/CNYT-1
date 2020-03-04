@@ -85,7 +85,6 @@ matrix = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
 ### Pre-requisitos
 
 - Tener instalado una version mayor o igual a python 3
-- Tener instalado las librerias numpy, scipy y matplotlib - python
 - Es opcional tener instalado git 
 
 
@@ -98,58 +97,13 @@ https://www.python.org/downloads/ .
 En caso de no tener instalado git, este  se podra descargar del siguiente link 
 https://git-scm.com/downloads.
 
-En caso de no tener instalado numpy, scipy y matplotlib - python, seguir los pasos del siguiente video https://www.youtube.com/watch?v=oE4KeuVNqcQ&list=LLwZJu6f8CavefyakHGC1HEw
-
-
-
-
-
-## Ejecutando Programa 
-
-Para ejecutar el programa se deben seguir los siquientes pasos:
-
-1) Descargar el repositorio en git usando el comando git clone  
-```
-git clone https://github.com/Rincon10/CNYT.git
-```
-
-2)  abrir el lugar donde se encuentra la implementacion
-```
-cd Implementations/classicalToQuantum
-
-```
-3) ejecutar el archivo con el siguiente comando 
-
-```
-python classicalToQuantum.py
-```
-
 ### Pruebas del programa 
 
 Las pruebas en un programa son muy importantes, tanto es asi que estas permiten verificar que las funcionalidades del programa se cumplen en cada iteración correctamente.
 Para este caso se usa la libreria de python  **unittest**; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es  importada con la linea de codigo **import unittest** que se encuentra en classicalToQuantumTest.py ,en este .py se encontraran  pruebas por cada una de las funciones implementadas sobre sistemas.
 
-- **Primer prueba**: Prueba asociada al experimentos #1, la cual dada una matriz de elementos booleanos y un vector de estado inicial de un sistema deterministico, calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
 
-```
-def testExperimentBooleanMatrix( self  ):
-        booleanMatrix = [...]
-
-        self.assertEqual(experimentBooleanMatrix( 1 ,booleanMatrix[:], vectIni[:]  ),
-                         [False, True, True, False, False, False] )
-```
-
-- **Segunda prueba**: Prueba asociada al experimento #2, la cual dada una matriz de elementos que representa una probabilidad y un vector de estado inicial de un sistema probabilistico ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
-
-```
-def testMultipleSlitQuantumExperiment( self ):
-	matrix = [...]
-	vectIni = [...]
-        self.assertEqual( probabilisticSystem( matrix[:], vectIni[:], 1 ), [...] )
-```
-
-
-- **Tercera prueba**:  Prueba asociada al experimento #3, la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
+- **Prueba**:  Prueba asociada al experimento #3, la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
 
 ```
 def testExperimentBooleanMatrix( self  ):
@@ -159,18 +113,6 @@ def testExperimentBooleanMatrix( self  ):
         self.assertEqual(experimentBooleanMatrix( 1 ,booleanMatrix[:], vectIni[:]  ),
                          [False, True, True, False, False, False] )
 ```
-
-
-
-- **Cuarta prueba**:   Prueba asociada a la funcion #4, la cual dado un vector de estado de un sistema probabilistico, logre graficar la probabilidad en cada uno de los estados.
-
-```
-def testGraphProbabilitiesVector( self ):
-         graphProbabilitiesVector( [ [0,0] ,[0,0]  ,[0,0] ,
-                                     [1/6,0],[1/6,0], [1/3,0],
-                                     [1/6,0],[1/6,0] ]  )
-```
-
 
 
 ## Ejecutando Pruebas
@@ -184,25 +126,24 @@ git clone https://github.com/Rincon10/CNYT.git
 
 2)  abrir el lugar donde se encuentra la implementacion
 ```
-cd Implementations/classicalToQuantum
+cd Experimento Doble Rendija
 
 ```
 
 3) ejecutar las pruebas  con el siguiente comando 
 
 ```
- python classicalToQuantumTest.py
+ python Test.py
 ```
 
 
 ## Autor
 
 **Iván Camilo Rincón Saavedra** - *Latest Commmit* - [Rincon10](https://github.com/Rincon10)
+**Nicolas Torres Paez**
+** **
 
 
-## Referencias
-El modelo que se siguio para diseñar el README	fue tomado del usuario:
 
-[PurpleBooth](https://github.com/PurpleBooth)
 
 
