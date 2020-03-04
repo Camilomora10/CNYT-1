@@ -1,47 +1,86 @@
-﻿## classicalToQuantum
+﻿## Experimento de la doble rendija
 
-En este programa se realizo la implementacion sobre los diferentes experimentos sobre sistemas, como :
-- Experimento del sistema determinista cuyo valor de las canicas son de tipo **Booleanos**
-- Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
-- Experimento de las múltiples rendijas cuántico.
+# Inicios
+El experimento de la doble rendija fue planteado originalmente en 1801 por Thomas Young y lo hizo con la intención de determinar si la luz se comportaba como onda o como partícula.
 
 
-de manera adicional, la libreria poseera una funcion que sera capaz de graficar con un diagrama de barras  las probabilidades de un vector de estados de un sistema.
+En la siguiente imagen se pude observar cómo es el comportamiento de las partículas vs el comportamiento de las ondas realizando el mismo experimento.
+
+![image](https://user-images.githubusercontent.com/53798019/75840496-5ecb9080-5d99-11ea-9e36-2c4ad91a21b4.png)
+
+es importante recalcar dichos comportamientos, ya que los patrones que generan ambos discrepan.
 
 
-## Empezando
+## Experimento Casero
 
-Antes de empezar se debe tener en cuenta la forma en que los sistemas seran representados, cada sistema tendra una matriz de adyacencia asociada y un vector el cual representara el estado inicial del sistema, donde sus posiciones representaran el peso de  una  conexion especifica entre componentes del sistema, a continuacion se mostrar un ejemplo de un sistema deterministico.
+Antes de mostrar la forma en que se desarrollo  el experimento se mencionaran los materiales que fueron utilizados para este experimento:
 
-## Sistema 
-![image](https://user-images.githubusercontent.com/53798019/75600835-61b93f00-5a82-11ea-9b08-d9b01abfdc87.png)
+**Materiales:**
+- 1/4 de cartoon paja 
+- bisturi
+- laser
+- regla 
+- papel 
+- marcador de color negro
+
+
+# Empezando
+
+- Se realizaron cortes al cartón paja, para crear un soporte en el cual se colocaría el láser, este soporte a su vez se fijaría a una base para que no se moviera.
+
+- Luego con una forma rectangular se corta un pedazo de cartón paja el cual se tomará como soporte para la rendija y este también estará fijo a la base.
+
+- Para la construcción de la rendija cortamos un pedazo de papel con forma de rectángulo y realizamos dos cortes finos con el bisturí de forma paralela *(los cuales representaran la doble rendija) *
+
+- Con el marcador, rayamos la rendija para que al realizar el experimento no pasen los fotones a través del papel
+
+
+El resultado de estos pasos es como el que se muestra en la imagen:
+![image](https://user-images.githubusercontent.com/53798019/75843488-48c1ce00-5da1-11ea-9ef0-99a95b922e55.png)
+
+
+![image](https://user-images.githubusercontent.com/53798019/75843715-d0a7d800-5da1-11ea-9833-04c4231fb213.png)
+
+
+![image](https://user-images.githubusercontent.com/53798019/75843793-19f82780-5da2-11ea-862e-f2eca95cb03b.png)
+
+# Desarrollo Experimento
+Para realizar la simulación del experimento se debe apuntar con un láser a las rejillas ya creadas y montadas, según lo observado se ve que el resultado se asemeja más al comportamiento de ondas con el patrón de interferencia, pero esto en  la época del experimento  des consternaba a los científicos el hecho de que al poner detectores después de la rendija para saber por dónde pasaba la luz el patrón del experimento era equivalente al de las partículas, lo que nos da entender que cuando el experimento está siendo monitoreado nos da como resultado el de las partículas y cuando no el resultado es el de patrón de interferencia de las ondas, como se muestra a continuación:
+![image](https://user-images.githubusercontent.com/53798019/75843793-19f82780-5da2-11ea-862e-f2eca95cb03b.png)
+
+![image](https://user-images.githubusercontent.com/53798019/75842824-71e15f00-5d9f-11ea-9ff6-8d337f872cc1.png)
+
+![image](https://user-images.githubusercontent.com/53798019/75844199-495b6400-5da3-11ea-88bd-993922dc9d39.png)
+
+
+Para poder lograr entender el resultado del experimento en la época aplicaron el principio de superposición cuántico en el que dice que las partículas (en este caso la luz) puede tener dos estados simultáneos, con una determinada magnitud (su posición ) y que al ser monitoreado se dice que este principio colapsa y solo   lograremos observar una de todos los posibles resultados.
+
+
+## Sistema
+
+Antes de seguir se debe tener en cuenta la forma en que el experimento sera representado como un sistema cuantico, este sistema tendra una matriz de adyacencia asociada y un vector el cual representara el estado inicial del sistema, donde sus posiciones representaran el peso de una conexion especifica entre componentes del sistema, a continuacion se mostrar un ejemplo del sistema cuantico para el experimento de la doble rendija.
+
+## Simulacion del Experimento 
+![image](https://user-images.githubusercontent.com/53798019/75844546-5b89d200-5da4-11ea-9f58-34fa00904b27.png)
 
 ## Matriz asociada al sistema
-![image](https://user-images.githubusercontent.com/53798019/75600862-cbd1e400-5a82-11ea-9aba-1d3151e20887.png)
+![image](https://user-images.githubusercontent.com/53798019/75844753-fda9ba00-5da4-11ea-9168-6ac8bf285863.png)
 
-## Estado inicial del sistema 
-![image](https://user-images.githubusercontent.com/53798019/75600871-e1dfa480-5a82-11ea-974d-5d833c298ba9.png)
 
 ## Representacion en la libreria
 - Representacion de la matriz en la libreria corresponde a :
 ```
-matrix = [   [ [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]    ],
-             [  [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]  ],
-	     [  [0, 0], [1, 0] , [0, 0] ,[0, 0] ,[1, 0]   ],
-	     [  [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]  ],
-	     [  [0, 0], [0, 0] , [1, 0] ,[0, 0] ,[0, 0] ],
-	     [  [1, 0], [0, 0] , [0, 0] ,[1, 0] ,[0, 0]   ]]
+matrix = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+         [[1 / math.sqrt(2), 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+         [[1 / math.sqrt(2), 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+         [[0, 0], [-1 / math.sqrt(6), 1 / math.sqrt(6)], [0, 0], [1, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+         [[0, 0], [-1 / math.sqrt(6), -1 / math.sqrt(6)], [0, 0], [0, 0], [1, 0], [0, 0], [0, 0], [0, 0]],
+         [[0, 0], [1 / math.sqrt(6), -1 / math.sqrt(6)], [-1 / math.sqrt(6), 1 / math.sqrt(6)], [0, 0], [0, 0],[1, 0], [0, 0], [0,0]],
+         [[0, 0], [0, 0], [-1 / math.sqrt(6), -1 / math.sqrt(6)], [0, 0], [0, 0], [0, 0], [1, 0], [0, 0]],
+          [[0, 0], [0, 0], [1 / math.sqrt(6), -1 / math.sqrt(6)], [0, 0], [0, 0], [0, 0], [0, 0], [1, 0]]]
 ```
 
-- Representacion del vector en la libreria corresponde a :
-```
-vector = [ [6, 0],
- 	   [2, 0],
-	   [1, 0],
-	   [5, 0] ,
-	   [3, 0] ,
-	   [10, 0]]
-```
+
 
 ### Pre-requisitos
 
