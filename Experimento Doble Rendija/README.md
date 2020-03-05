@@ -55,6 +55,7 @@ Para realizar la simulación del experimento se debe apuntar con un láser a las
 
 ![image](https://user-images.githubusercontent.com/53798019/75844199-495b6400-5da3-11ea-88bd-993922dc9d39.png)
 
+A continuación un vistazo con mas detalle sobre el experimento realizado, en el siguiente enlace https://www.youtube.com/watch?v=46sw1-2oxFI.
 
 Para poder lograr entender el resultado del experimento en la época aplicaron el principio de superposición cuántico en el que dice que las partículas (en este caso la luz) puede tener dos estados simultáneos, con una determinada magnitud (su posición ) y que al ser monitoreado se dice que este principio colapsa y solo   lograremos observar una de todos los posibles resultados.
 
@@ -109,7 +110,7 @@ Las pruebas en un programa son muy importantes, tanto es asi que estas permiten 
 Para este caso se usa la libreria de python  **unittest**; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es  importada con la linea de codigo **import unittest** que se encuentra en Test.py ,en este .py se encontraran  pruebas por cada una de las funciones implementadas sobre sistemael experimento de doble rendija.
 
 
-- **Prueba**:  Prueba  la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
+**Prueba**:  Prueba  la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  ( ** experimento de las multiples rendijas ** ), calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
 
 ```
 def testExperimentBooleanMatrix( self  ):
