@@ -47,10 +47,11 @@ El resultado de estos pasos es como el que se muestra en la imagen:
 
 # Desarrollo Experimento
 Para realizar la simulación del experimento se debe apuntar con un láser a las rejillas ya creadas y montadas, según lo observado se ve que el resultado se asemeja más al comportamiento de ondas con el patrón de interferencia, pero esto en  la época del experimento  des consternaba a los científicos el hecho de que al poner detectores después de la rendija para saber por dónde pasaba la luz el patrón del experimento era equivalente al de las partículas, lo que nos da entender que cuando el experimento está siendo monitoreado nos da como resultado el de las partículas y cuando no el resultado es el de patrón de interferencia de las ondas, como se muestra a continuación:
+
 ![image](https://user-images.githubusercontent.com/53798019/75939978-cb0dc900-5e59-11ea-9cc1-4d793654a7b5.png)
 
+![image](https://user-images.githubusercontent.com/53798019/75940145-2fc92380-5e5a-11ea-9428-54fa5f43ce30.png)
 
-![image](https://user-images.githubusercontent.com/53798019/75842824-71e15f00-5d9f-11ea-9ff6-8d337f872cc1.png)
 
 ![image](https://user-images.githubusercontent.com/53798019/75844199-495b6400-5da3-11ea-88bd-993922dc9d39.png)
 
