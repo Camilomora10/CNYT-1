@@ -159,7 +159,7 @@ cd Experimento Doble Rendija
 
 - **Iván Camilo Rincón Saavedra** - *Latest Commmit* - [Rincon10](https://github.com/Rincon10)
 - **Nicolas Torres Paez** - [Novenix](https://github.com/Novenix)
-- **Lorenzo Marquez Pinto**
+- **Lorenzo Marquez Pinto** -[DrLolo03](https://github.com/DrLolo03) 
 
 
 
