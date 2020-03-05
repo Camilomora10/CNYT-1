@@ -46,7 +46,7 @@ El resultado de estos pasos es como el que se muestra en la imagen:
 
 
 # Desarrollo Experimento
-Para realizar la simulación del experimento se debe apuntar con un láser a las rejillas ya creadas y montadas, según lo observado se ve que el resultado se asemeja más al comportamiento de ondas con el patrón de interferencia, pero esto en  la época del experimento  des consternaba a los científicos el hecho de que al poner detectores después de la rendija para saber por dónde pasaba la luz el patrón del experimento era equivalente al de las partículas, lo que nos da entender que cuando el experimento está siendo monitoreado nos da como resultado el de las partículas y cuando no el resultado es el de patrón de interferencia de las ondas, como se muestra a continuación:
+Para realizar la simulación del experimento se debe apuntar con un láser a la redija ya creada y montada, según lo observado se ve que el resultado se asemeja más al comportamiento de ondas con el patrón de interferencia, pero esto en  la época del experimento  desconsternaba a los científicos el hecho de que al poner detectores después de la rendija para saber por dónde pasaba la luz el patrón del experimento era equivalente al de las partículas, lo que nos da entender que cuando el experimento está siendo monitoreado nos da como resultado el de las partículas y cuando no el resultado es el de patrón de interferencia de las ondas, como se muestra a continuación:
 
 ![image](https://user-images.githubusercontent.com/53798019/75939978-cb0dc900-5e59-11ea-9cc1-4d793654a7b5.png)
 
@@ -57,7 +57,7 @@ Para realizar la simulación del experimento se debe apuntar con un láser a las
 
 A continuación un vistazo con mas detalle sobre el experimento realizado, en el siguiente enlace https://www.youtube.com/watch?v=46sw1-2oxFI.
 
-Para poder lograr entender el resultado del experimento en la época aplicaron el principio de superposición cuántico en el que dice que las partículas (en este caso la luz) puede tener dos estados simultáneos, con una determinada magnitud (su posición ) y que al ser monitoreado se dice que este principio colapsa y solo   lograremos observar una de todos los posibles resultados.
+Para poder lograr entender el resultado del experimento en la época aplicaron el principio de superposición cuántico en el que dice que las partículas (en este caso la luz) puede  dos o más valores de una determinada magnitud (su posición ) tambien conocida como  **"onda de posibilidades"** que pasan por las dos ranuras para luego interferir con ella misma hasta que golpear la pared de impacto  y que al ser monitoreado este se ve afectado a que se dice que este principio colapsa y solo   lograremos observar una de todos los posibles resultados.
 
 
 ## Sistema
