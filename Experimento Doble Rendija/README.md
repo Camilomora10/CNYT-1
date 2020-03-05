@@ -158,7 +158,7 @@ cd Experimento Doble Rendija
 ## Autores
 
 - **Iván Camilo Rincón Saavedra** - *Latest Commmit* - [Rincon10](https://github.com/Rincon10)
-- **Nicolas Torres Paez**
+- **Nicolas Torres Paez** - [Novenix](https://github.com/Novenix)
 - **Lorenzo Marquez Pinto**
 
 
