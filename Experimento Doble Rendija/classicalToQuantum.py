@@ -14,7 +14,7 @@ def finalMatrix( matrix ):
     return matrix
 
 def quantumProbabilisticSystem( matrix, vectIni, clicks ):
-    if ( clicks  > 0 ) and ( type( clicks ) is int ):
+    if ( clicks  >= 0 ) and ( type( clicks ) is int ):
         length  = len( vectIni )
         copyMatrix = matrix[:]
         
