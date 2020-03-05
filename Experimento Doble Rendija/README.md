@@ -66,9 +66,12 @@ Antes de seguir se debe tener en cuenta la forma en que el experimento sera repr
 ## Simulacion del Experimento 
 ![image](https://user-images.githubusercontent.com/53798019/75844546-5b89d200-5da4-11ea-9f58-34fa00904b27.png)
 
+*grafica 1*
+
 ## Matriz asociada al sistema
 ![image](https://user-images.githubusercontent.com/53798019/75844753-fda9ba00-5da4-11ea-9168-6ac8bf285863.png)
 
+*grafica 2*
 
 ## Representacion en la libreria
 - Representacion de la matriz en la libreria corresponde a :
@@ -152,5 +155,5 @@ cd Experimento Doble Rendija
 
 
 
-
-
+## Bibliografia 
+ - Yanofsky, N. and Mannucci, M. (2018). Quantum computing for computer scientists. Cambridge: Cambridge University Press, pp.88-97, grafica 1, grafica2. - 
