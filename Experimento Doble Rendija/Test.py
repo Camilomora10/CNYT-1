@@ -25,5 +25,10 @@ class classicalToQuantum(unittest.TestCase):
                                                        [[0.0, 0], [0.3333333333333334, 0], [0.3333333333333334, 0], [0.0, 0], [0.0, 0], [1.0, 0], [0.0, 0], [0.0, 0]],
                                                        [[0.1666666666666667, 0], [0.0, 0], [0.3333333333333334, 0], [0.0, 0], [0.0, 0], [0.0, 0], [1.0, 0], [0.0, 0]],
                                                        [[0.1666666666666667, 0], [0.0, 0], [0.3333333333333334, 0], [0.0, 0], [0.0, 0], [0.0, 0], [0.0, 0], [1.0, 0]]]             )
+       
+       
+       answ = actionMatrixOnVector( multipleSlitQuantumExperiment(Matriz_Doble_Rendija[:],
+                                                      Estado_Inicial[:], 2),  Estado_Inicial)
+       graphProbabilitiesVector( answ)
 if __name__ == '__main__':
     unittest.main()

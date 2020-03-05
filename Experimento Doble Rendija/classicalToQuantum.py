@@ -29,5 +29,14 @@ def multipleSlitQuantumExperiment( matrix , vectIni, clicks  ):
         return quantumProbabilisticSystem( matrix , vectIni, clicks  )
 
     
+def graphProbabilitiesVector( vector  ):
+    data = len( vector )
+    x = np.array([ x for x in range( data )])
+    y = np.array([ round(vector[x][0]*100,2) for x in range( data )])
 
+    plot.bar( x,y , color ='g', align='center')
+    plot.title('Probabilidades vector')
+    plot.show()
+
+    
 #Author : Iván Camilo Rincón Saavedra
