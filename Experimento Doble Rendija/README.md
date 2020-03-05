@@ -6,7 +6,14 @@ El experimento de la doble rendija fue planteado originalmente en 1801 por Thoma
 
 En la siguiente imagen se pude observar cómo es el comportamiento de las partículas vs el comportamiento de las ondas realizando el mismo experimento.
 
-![image](https://user-images.githubusercontent.com/53798019/75840496-5ecb9080-5d99-11ea-9e36-2c4ad91a21b4.png)
+![image](https://user-images.githubusercontent.com/53798019/76018147-c4309600-5eed-11ea-8836-bc627fa151a1.png)
+
+![image](https://user-images.githubusercontent.com/53798019/76017707-0a392a00-5eed-11ea-87d4-8726060d7c52.png)
+
+![image](https://user-images.githubusercontent.com/53798019/76018668-723c4000-5eee-11ea-865d-285d7cd56b8e.png)
+
+
+
 
 es importante recalcar dichos comportamientos, ya que los patrones que generan ambos discrepan.
 
@@ -158,3 +165,5 @@ cd Experimento Doble Rendija
 
 ## Bibliografia 
  - Yanofsky, N. and Mannucci, M. (2018). Quantum computing for computer scientists. Cambridge: Cambridge University Press, pp.88-97, grafica 1, grafica2. - 
+
+- Mecánica cuántica, experimento de la doble rendija. (2012). [video] Directed by A. Garcia Orduña. https://www.youtube.com/watch?v=SzX-R38dZQw.
