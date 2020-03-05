@@ -4,7 +4,7 @@
 El experimento de la doble rendija fue planteado originalmente en 1801 por Thomas Young y lo hizo con la intención de determinar si la luz se comportaba como onda o como partícula.
 
 
-En la siguiente imagen se pude observar cómo es el comportamiento de las partículas vs el comportamiento de las ondas realizando el mismo experimento.
+En la siguiente imagen se pude observar cómo es el comportamiento de las partículas en el experimento.
 
 ![image](https://user-images.githubusercontent.com/53798019/76018147-c4309600-5eed-11ea-8836-bc627fa151a1.png)
 
