@@ -14,7 +14,8 @@ de manera adicional, la libreria poseera una funcion que sera capaz de graficar 
 Antes de empezar se debe tener en cuenta la forma en que los sistemas seran representados, cada sistema tendra una matriz de adyacencia asociada y un vector el cual representara el estado inicial del sistema, donde sus posiciones representaran el peso de  una  conexion especifica entre componentes del sistema, a continuacion se mostrar un ejemplo de un sistema deterministico.
 
 ## Sistema 
-![image](https://user-images.githubusercontent.com/53798019/75600835-61b93f00-5a82-11ea-9b08-d9b01abfdc87.png)
+![image](https://user-images.githubusercontent.com/53798019/76146583-f236e700-6061-11ea-9c41-2a3cb0eb2b86.png)
+
 
 ## Matriz asociada al sistema
 ![image](https://user-images.githubusercontent.com/53798019/76146129-522b8e80-605e-11ea-8e8b-434ba6a36bc0.png)
