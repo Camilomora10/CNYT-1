@@ -21,12 +21,14 @@ Antes de empezar se debe tener en cuenta la forma en que los sistemas seran repr
 
 
 ## Estado inicial del sistema 
-![image](https://user-images.githubusercontent.com/53798019/75600871-e1dfa480-5a82-11ea-974d-5d833c298ba9.png)
+
+![image](https://user-images.githubusercontent.com/53798019/76146211-e4cc2d80-605e-11ea-9012-df7406161847.png)
+
 
 ## Representacion en la libreria
 - Representacion de la matriz en la libreria corresponde a :
 ```
-matrix = [   [ [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]    ],
+M = [   [ [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]    ],
              [  [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]  ],
 	     [  [0, 0], [1, 0] , [0, 0] ,[0, 0] ,[1, 0]   ],
 	     [  [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]  ],
@@ -36,7 +38,7 @@ matrix = [   [ [0, 0], [0, 0] , [0, 0] ,[0, 0] ,[0, 0]    ],
 
 - Representacion del vector en la libreria corresponde a :
 ```
-vector = [ [6, 0],
+v0 = [ [6, 0],
  	   [2, 0],
 	   [1, 0],
 	   [5, 0] ,
