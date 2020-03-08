@@ -6,12 +6,15 @@ from  matrixAndVectorLibrary import *
 def finalMatrix( matrix ):
     row, column = len( matrix ), len( matrix[0] )
     for i in range( row ):
+        nRow = []
         for j in range( column ):
-            matrix[ i ][ j ] = module( matrix[ i ][ j ] )**2
+            nRow.append( [( module( matrix[ i ][ j ] )**2 ),0])
+            
+        matrix[ i ]= nRow
     return matrix
 
 def quantumProbabilisticSystem( matrix, vectIni, clicks ):
-    if ( clicks  > 0 ) and ( type( clicks ) is int ):
+    if ( clicks  >= 0 ) and ( type( clicks ) is int ):
         length  = len( vectIni )
         copyMatrix = matrix[:]
         
