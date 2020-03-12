@@ -73,12 +73,13 @@ Para poder lograr entender el resultado del experimento en la época aplicaron e
 Antes de seguir se debe tener en cuenta la forma en que el experimento sera representado como un sistema cuantico, este sistema tendra una matriz de adyacencia asociada y un vector el cual representara el estado inicial del sistema, donde sus posiciones representaran el peso de una conexion especifica entre componentes del sistema, a continuacion se mostrar un ejemplo del sistema cuantico para el experimento de la doble rendija.
 
 ## Simulacion del Experimento 
-![image](https://user-images.githubusercontent.com/53798019/75844546-5b89d200-5da4-11ea-9f58-34fa00904b27.png)
+![image](https://user-images.githubusercontent.com/53798019/76541740-03ad3400-6452-11ea-8a66-07a982e012ff.png)
 
 *grafica 1*
 
 ## Matriz asociada al sistema
-![image](https://user-images.githubusercontent.com/53798019/75844753-fda9ba00-5da4-11ea-9168-6ac8bf285863.png)
+![image](https://user-images.githubusercontent.com/53798019/76541799-1de71200-6452-11ea-9ea0-272be402f2b5.png)
+
 
 *grafica 2*
 
