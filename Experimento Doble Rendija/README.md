@@ -59,9 +59,7 @@ El resultado de estos pasos es como el que se muestra en la imagen:
 Para realizar la simulación del experimento se debe apuntar con un láser a la redija ya creada y montada, según lo observado se ve que el resultado se asemeja más al comportamiento de ondas con el patrón de interferencia, pero esto en  la época del experimento  desconsternaba a los científicos el hecho de que al poner detectores después de la rendija para saber por dónde pasaba la luz el patrón del experimento era equivalente al de las partículas, lo que nos da entender que cuando el experimento está siendo monitoreado nos da como resultado el de las partículas y cuando no el resultado es el de patrón de interferencia de las ondas, como se muestra a continuación:
 
 ![image](https://user-images.githubusercontent.com/53798019/75939978-cb0dc900-5e59-11ea-9cc1-4d793654a7b5.png)
-
-![image](https://user-images.githubusercontent.com/53798019/75940145-2fc92380-5e5a-11ea-9428-54fa5f43ce30.png)
-
+![image](https://user-images.githubusercontent.com/53798019/76541511-b761f400-6451-11ea-9e06-3787fc40376c.png)
 
 ![image](https://user-images.githubusercontent.com/53798019/75844199-495b6400-5da3-11ea-88bd-993922dc9d39.png)
 
@@ -169,4 +167,3 @@ cd Experimento Doble Rendija
 ## Bibliografia 
  - Yanofsky, N. and Mannucci, M. (2018). Quantum computing for computer scientists. Cambridge: Cambridge University Press, pp.88-97, grafica 1, grafica2. - 
 
-- Mecánica cuántica, experimento de la doble rendija. (2012). [video] Directed by A. Garcia Orduña. https://www.youtube.com/watch?v=SzX-R38dZQw.
