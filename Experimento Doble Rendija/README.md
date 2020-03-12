@@ -119,7 +119,7 @@ Las pruebas en un programa son muy importantes, tanto es asi que estas permiten 
 Para este caso se usa la libreria de python  **unittest**; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es  importada con la linea de codigo **import unittest** que se encuentra en Test.py ,en este .py se encontraran  pruebas por cada una de las funciones implementadas sobre sistemael experimento de doble rendija.
 
 
-**Prueba**:  Prueba  la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  **(experimento de dos rendijas) **, calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
+**Prueba**:  Prueba  la cual dada una matriz de elementos de numeros imaginarios y un vector de estado inicial de un sistema probabilistico cuantico  **(experimento de dos rendijas)**, calcula el estado final que este se encontrara dado un numero de veces que este cambiara.
 
 ```
 def testExperimentBooleanMatrix( self  ):
