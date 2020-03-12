@@ -1,21 +1,17 @@
 ﻿## Experimento de la doble rendija
 
 # Inicios
-El experimento de la doble rendija fue planteado originalmente en 1801 por Thomas Young y lo hizo con la intención de determinar si la luz se comportaba como onda o como partícula.
+El experimento de la doble rendija fue planteado originalmente en 1801 por Thomas Young y lo hizo con la intención de determinar si la luz se comportaba como onda o como partícula, actualmente este experimento se repoduce en una cámara oscura la cual  deja entrar un haz de luz por una rendija estrecha, cuando la luz llega a una pared intermedia de  dos rendijas, la luz debe pasar por alguna de estas dos y chocar con una placa que se encuentra despues de la rendija .
 
 
 En la siguiente imagen se pude observar cómo es el comportamiento de las partículas en el experimento.
 
-![image](https://user-images.githubusercontent.com/53798019/76018147-c4309600-5eed-11ea-8836-bc627fa151a1.png)
-
-![image](https://user-images.githubusercontent.com/53798019/76017707-0a392a00-5eed-11ea-87d4-8726060d7c52.png)
-
-![image](https://user-images.githubusercontent.com/53798019/76018668-723c4000-5eee-11ea-865d-285d7cd56b8e.png)
+![image](https://user-images.githubusercontent.com/53798019/76539289-92b84d00-644e-11ea-92df-48442a1831d2.png)
+![image](https://user-images.githubusercontent.com/53798019/76539496-d90dac00-644e-11ea-8118-415db8201075.png)
+![image](https://user-images.githubusercontent.com/53798019/76540305-f7c07280-644f-11ea-8610-5f409855351d.png)
 
 
-
-
-es importante recalcar dichos comportamientos, ya que los patrones que generan ambos discrepan.
+más adelante se explicara el porque se presenta este comportamiento.
 
 
 ## Experimento Casero
@@ -28,7 +24,7 @@ Antes de mostrar la forma en que se desarrollo  el experimento se mencionaran lo
 - laser
 - regla 
 - papel 
-- marcador de color negro
+- mina 0.5 o hilo 
 
 
 # Empezando
@@ -37,9 +33,8 @@ Antes de mostrar la forma en que se desarrollo  el experimento se mencionaran lo
 
 - Luego con una forma rectangular se corta un pedazo de cartón paja el cual se tomará como soporte para la rendija y este también estará fijo a la base.
 
-- Para la construcción de la rendija cortamos un pedazo de papel con forma de rectángulo y realizamos dos cortes finos con el bisturí de forma paralela *(los cuales representaran la doble rendija) *
+- Para la construcción de la rendija se puede hacer de dos formas la primera es colocar la mina justamente pegada al laser, colocar un hilo en la figuta rectangular de tal manera que sea perpendicular a la base  *(los cuales representaran la doble rendija) *
 
-- Con el marcador, rayamos la rendija para que al realizar el experimento no pasen los fotones a través del papel
 
 # Proceso:
 
