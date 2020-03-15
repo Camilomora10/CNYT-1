@@ -20,8 +20,8 @@ def bra( vect  ):
     
 
 def transicion( vect1 ,vect2):
-    answ = internalProduct( bra(vect1 ), vect2)    
-    return answ
+    ##(rvs hc)  el bra a vect1
+    return internalProduct( vect1 , vect2)    
 
 def probability( vector, position ):
     length = Length( vector)
@@ -29,36 +29,27 @@ def probability( vector, position ):
         return float("{0:.4f}".format( module(vector[position])**2 / length**2 ));
 
 def OmegaPsi( psi, omega ):
-    return internalProduct( actionMatrixOnVector( omega, psi) , psi)
+    return internalProduct( actionMatrixOnVector( omega, psi) , psi)[0]
 
 def DeltaPsi( omega, expectedValue ):
+    
     return subMat( omega ,multiEscalMat( expectedValue, identityMatrix( omega ) ) )
 
 def matrixPsi( matrix, psi ):
-## rev porque al llamrse 2 veces cmba
+    ## rvs pq al llmse 2 veces cmba
     actionMatrixOnVector(matrix, adjointVector(psi))
     vect = actionMatrixOnVector(matrix, adjointVector(psi))
-    print(vect)
-####    no deberia ser(psi) adjoint sino psi.
-    return float( "{:.2f}".format(multVector( vect,adjointVector(psi))[0][0]))
+    
+    ##n dbra ser(psi) adjoint sino psi.
+    
+    return float( "{:.2f}".format(multVector( vect,adjointVector(psi)) [0] ) )
 
 def variance( psi, omega):
-    expectedValue = float( "{:.2f}".format(OmegaPsi( psi, omega )[0] )[:-1] )
-    deltaPsi = DeltaPsi( omega ,[expectedValue ,0])
+    expectedValue = float("{:.2f}".format(OmegaPsi( psi, omega ))[:-1])
+    deltaPsi = DeltaPsi( omega ,[expectedValue ,0.0])
     matrixOfVariance = multiplicaMat( deltaPsi, deltaPsi)
-    print(matrixOfVariance  )
     return matrixPsi( matrixOfVariance,psi )
     
 
-
-def main( ):
-
-    raiz = math.sqrt(2)/2
-    psi = normalizate([ [raiz,0] , [ 0,raiz] ]  )
-    omega   = [ [ [1,0],[0,-1] ], [ [0,1],[2,0] ] ]
-    variance( psi, omega)
-    
-main()
-    
 
 #Author : Iván Camilo Rincón Saavedra

@@ -25,11 +25,8 @@ def sumVect( vect1, vect2 ):
 def multVector( vect1, vect2 ):
     acu = [0,0]
     for c in range( len( vect1) ):
-        
-        mult= multComplexNumber(vect1[c] , vect2[c])
-        acu = suma( acu, mult)
-
-    return [acu]
+        acu = suma(acu, multComplexNumber(vect1[c] , vect2[c]))
+    return acu
 
 def adjointVector( vector ):
     for x in range( len( vector )):
@@ -181,12 +178,9 @@ def actionMatrixOnVector( matrix, vector ):
 
 
 def internalProduct( vector1 , vector2 ):
-    answ = [ 0, 0 ]
-    
-    for x in range( len( vector1 ) ):
-        answ = suma( answ, multComplexNumber( vector1[ x ], vector2[ x ] ) )
+    return multVector( adjointVector( vector1),  vector2 )
 
-    return answ
+    
 
 
          
