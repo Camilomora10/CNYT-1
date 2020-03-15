@@ -1,71 +1,17 @@
 ﻿.
 ## matrixAndVectorLibrary
 
-En este programa se realizo la implementacion de operaciones para vectores y matrices  complejas, la cual es capaz de realizar las siguientes operaciones:
+El sistema consiste en una partícula confinada a un conjunto discreto de posiciones en una línea. El simulador permitite especificar el número de posiciones y un vector ket de estado asignando las amplitudes.
 
-- Adición de vectores complejos.
-- Inverso (aditivo) de un vector complejo.
-- Multiplicación de un escalar por un vector complejo.
-- Adición de matrices complejas.
-- Inversa (aditiva) de una matriz compleja.
-- Multiplicación de un escalar por una matriz compleja.
-- Transpuesta de una matriz/vector
-- Conjugada de una matriz/vector
-- Adjunta (daga) de una matriz/vector
-- Producto de dos matrices (de tamaños compatibles)
-- Función para calcular la "acción" de una matriz sobre un vector.
-- Producto interno de dos vectores
-- Norma de un vector
-- Distancia entre dos vectores
-- Revisar si una matriz es unitaria
-- Revisar si una matriz es Hermitiana
-- Producto tensor de dos matrices/vectores
+- El sistema calcula la probabilidad de encontrarlo en una posición en particular.
+- El sistema si se le da otro vector Ket debe buscar la probabilidad de transitar del primer vector al segundo.
+- Operacion Bra
+- Normalizacion  de vectores cuanticos 
 
 
 ## Empezando
 
-Antes de empezar se debe tener en cuenta la forma en que los numeros complejos seran representados, vectores complejos, matrices complejas .
 
-**Numeros Complejos**
-Como se sabe los numeros complejos se caracterizan por tener una parte real y una imaginaria como se observa en el siguiente ejemplo: 
-
-```
-1 + 2i
-```
-lo equivalente para la libreria sera una lista de longitud 2, cuya posicion 0 sera la parte real y la posicion 1 la parte imaginaria; con respecto al numero anterior el equivalente en la libreria  sera:
-
-```
-[ 1, 2]
-```
-
-**Vectores complejos**
-El ejemplo principal de un espacio vectorial complejo es el conjunto de vectores de longitud fija con entradas complejas.
-
-por ejemplo El conjunto de vectores de longitud 2 lo denominaremos como C2 =C×C, lo que nos recuerda que cada vector es una lista ordenada de 2 números complejos.
-
-**Ejemplo de un vector en c2:**
-```
- | 5 + 3i |
- | 3 + 6i |
-```
-lo equivalente para la libreria sera una lista de longitud de la dimension de c, cuya cada posicion sera un numero imaginario; con respecto al numero anterior el equivalente en la libreria  sera :
-```
-[ [ 5,3 ], [ 3, 6] ]
-```
-
-**Matrices  complejas**
- Las matrices compleajas se pueden ver como C m×n, el conjunto de todas las matrices m-por-n **(matrices bidimensionales)** con entradas complejas, es un espacio vectorial complejo
-
-
-**Ejemplo de una matriz en c 2x2:**
-```
- | 5 + 3i   8 + 9i |
- | 3 + 6i   3 - i  |
-```
-lo equivalente para la libreria sera una matriz, cuya cada posicion sera una lista de numeros imaginario; con respecto al numero anterior el equivalente en la libreria  sera:
-```
-[ [ [ 5,3 ], [ 8, 9 ] ], [ [ 3, 6], [3,- 1 ] ] ]
-```
 
 ### Pre-requisitos
 
@@ -96,13 +42,13 @@ git clone https://github.com/Rincon10/CNYT.git
 
 2)  abrir el lugar donde se encuentra la implementacion
 ```
-cd Implementations/matrixAndVectorLibrary
+cd Implementations/quantumTheory
 
 ```
 3) ejecutar el archivo con el siguiente comando 
 
 ```
-python matrixAndVectorLibrary.py
+python quantumTheory.py
 ```
 
 ### Pruebas del programa 
@@ -113,13 +59,13 @@ Para este caso se usa la libreria de python  **unittest**; la cual es usada para
 
 En este .py se encontraran 2 pruebas por cada una de las funciones implementadas de operaciones para vectores y matrices complejas.
 
-A continuacion se mostrara un ejemplo de una prueba de la funcion suma la cual nos dice si el resultado de la suma entre los vectores a y b es igual a [ [ 2, 6 ], [ 4, 8 ] ] ,  de forma analoga sera para las demas funciones:
+A continuacion se mostrara un ejemplo de una prueba de la funcion quantumTheory la cual permite calcular la  probabilidad de econtrar al sistema en una posicion especifica , de forma analoga sera para las demas funciones:
 
+# Funcion en la libreria 
 ```
-def testSumVect(self):
-       
-        self.assertEqual( sumVect( [ a, b ], [a ,b ] ),
-                          [[2, 6], [4, 8]] )
+def testProbability( self ):
+        prob = [ [-3,-1],[0,-2],[0,1],[2,0]];
+        self.assertEqual( probability(prob, 2 ),0.0526);
 ```
 
 
@@ -136,20 +82,22 @@ git clone https://github.com/Rincon10/CNYT.git
 
 2)  abrir el lugar donde se encuentra la implementacion
 ```
-cd Implementations/matrixAndVectorLibrary
+cd Implementations/quantumTheoryTest
 
 ```
 
 3) ejecutar las pruebas  con el siguiente comando 
 
 ```
- python testMatrixandVector.py
+ python quantumTheoryTest.py
 ```
+# Salida en IDLE
+![image](https://user-images.githubusercontent.com/53798019/76693852-c1464b80-6639-11ea-9baa-a8ad0320e62b.png)
 
 
 ## Autor
 
-**Iván Camilo Rincón Saavedra** - *Latest Commmit* - [Rincon10](https://github.com/Rincon10)
+**Iván Camilo Rincón Saavedra** - [Rincon10](https://github.com/Rincon10)
 
 
 ## Referencias
