@@ -1,9 +1,9 @@
 ﻿.
 ## quantumTheoryTest
 
-El sistema consiste en una partícula confinada a un conjunto discreto de posiciones en una línea. El simulador permitite especificar el número de posiciones y un vector ket de estado asignando las amplitudes.
+El sistema que se modela consiste en una partícula confinada a un conjunto discreto de posiciones en una línea, el cual se puede realizar las siguientes operaciones:
 
-- El sistema calcula la probabilidad de encontrarlo en una posición en particular.
+- Calcular la probabilidad de encontrarlo en una posición en particular.
 - El sistema si se le da otro vector Ket debe buscar la probabilidad de transitar del primer vector al segundo.
 - Operacion Bra
 - Normalizacion  de vectores cuanticos 
@@ -97,7 +97,7 @@ cd Implementations/quantumTheoryTest
 
 ## Autor
 
-**Iván Camilo Rincón Saavedra** - [Rincon10](https://github.com/Rincon10)
+**Iván Camilo Rincón Saavedra** -[Rincon10](https://github.com/Rincon10)
 
 
 ## Referencias
