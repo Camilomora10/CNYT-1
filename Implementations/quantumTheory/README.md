@@ -1,5 +1,5 @@
 ﻿.
-## quantumTheoryTest
+## quantumTheory
 
 El sistema que se modela consiste en una partícula confinada a un conjunto discreto de posiciones en una línea, el cual se puede realizar las siguientes operaciones:
 
