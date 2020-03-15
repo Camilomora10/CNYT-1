@@ -4,9 +4,12 @@
 El sistema que se modela consiste en una partícula confinada a un conjunto discreto de posiciones en una línea, el cual se puede realizar las siguientes operaciones:
 
 - Calcular la probabilidad de encontrarlo en una posición en particular.
-- El sistema si se le da otro vector Ket debe buscar la probabilidad de transitar del primer vector al segundo.
+- El sistema puede recibir dos vectores y calcular la probabilidad de transitar de el uno al otro después de hacer la observación
 - Operacion Bra
-- Normalizacion  de vectores cuanticos 
+- Normalizacion  de vectores 
+- Ahora con una matriz que describa un observable y un vector ket, el sistema revisa que la matriz sea hermitiana, y si lo es, calcula la media y la varianza del observable en el estado dado.
+- calcula los valores propios del observable y la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
+- Se considera la dinámica del sistema. Ahora con una serie de matrices Un el sistema calcula el estado final a partir de un estado inicial.
 
 
 ## Empezando

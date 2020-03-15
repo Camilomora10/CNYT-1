@@ -25,9 +25,10 @@ def sumVect( vect1, vect2 ):
 def multVector( vect1, vect2 ):
     acu = [0,0]
     for c in range( len( vect1) ):
-        mult= multComplexNumber(vect1[c] , vect2[c])[:]
-        acu = suma( acu, mult)
         
+        mult= multComplexNumber(vect1[c] , vect2[c])
+        acu = suma( acu, mult)
+
     return [acu]
 
 def adjointVector( vector ):
@@ -54,13 +55,19 @@ def escalVect( vect, complexNumber ):
     return vect
 
 def sumMat( mat1, mat2 ):
-        row, colum  = len( mat1 ), len( mat1[ 0 ] )
-         
-        for i in range( row ):
-                for j in range( colum ):
-                        mat1[ i ][ j ] = suma ( mat1[ i ][ j ] , mat2[ i ][ j ] )
-                        
-        return mat1
+    row, colum  = len( mat1 ), len( mat1[ 0 ] )
+    for i in range( row ):
+        for j in range( colum ):
+            mat1[ i ][ j ] = suma ( mat1[ i ][ j ] , mat2[ i ][ j ] )
+            
+    return mat1
+
+def subMat( mat1, mat2 ):
+    row, colum  = len( mat1 ), len( mat1[ 0 ] )
+
+    for i in range( row ):
+        mat1[ i ] = subVect( mat1[i], mat2[i])
+    return mat1
 
 def inverseMat( mat ):
     row, colum = len( mat ), len( mat[ 0 ] )
@@ -156,7 +163,6 @@ def actionBoolMatrixOnVector( matrix, vector ):
         return answ 
     print("Las dimensiones de las matrices, no son los adecuados para su multiplicacion")
 
-
 def actionMatrixOnVector( matrix, vector ):
     row, col  = len( matrix ), len( matrix [ 0 ] )
     length = len( vector )
@@ -181,6 +187,7 @@ def internalProduct( vector1 , vector2 ):
         answ = suma( answ, multComplexNumber( vector1[ x ], vector2[ x ] ) )
 
     return answ
+
 
          
 def normVector( vector  ):
