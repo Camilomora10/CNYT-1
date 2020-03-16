@@ -1,7 +1,6 @@
 import unittest
 from quantumTheory import *
 
-
 class quantumTheoryTest(unittest.TestCase):
     
     def testLength( self  ):
@@ -32,10 +31,7 @@ class quantumTheoryTest(unittest.TestCase):
         vect1 = normalizate( [[2, 1], [-1, 2], [0, 1], [1, 0], [3, -1], [2, 0], [0, -2], [-2, 1], [1, -3], [0, -1]] );
         vect2 =normalizate( [[-1, -4], [2, -3], [-7, 6], [-1, 1], [-5, -3], [5, 0], [5, 8], [4, -4], [8, -7], [2, -7]] );
         
-
         self.assertEqual( [-0.02055662641731377, -0.13019196730965366], transicion(  vect2   ,vect1));
-    
-        
 
     def testProbability( self ):
         prob = [ [-3,-1],[0,-2],[0,1],[2,0]];
@@ -46,6 +42,30 @@ class quantumTheoryTest(unittest.TestCase):
         psi = normalizate([ [raiz,0] , [ 0,raiz] ]  );
         omega = [ [ [1,0],[0,-1] ], [ [0,1],[2,0] ] ];
         self.assertEqual( variance( psi,omega ) ,0.25);
+        
+    def testDescribeAnObservable( self ):
+        raiz = math.sqrt(2)/2;
+        psi = normalizate([ [raiz,0] , [ 0,raiz] ]  );
+        omega = [ [ [1,0],[0,-1] ], [ [0,1],[2,0] ] ];
+        answ = describeAnObservable( psi, omega )
+
+        self.assertEqual( answ[0],0.25);
+        self.assertEqual( answ[1],2.5);
+        
+        self.assertEqual( describeAnObservable( psi, [ [[1,-1],[1,-1]], [ [1,-1],[1,-1]] ] ),None );
+
+    def testMoveWithEigenValues( self ):
+        omega = [[0, -0.5j, -1j, -3.5],
+         [0.5j, 0, 3.5, -1j],
+         [1j, 3.5, 0, -0.5j],
+         [-3.5, 1j, 0.5j, 0]]
+
+        eigenValues,eigenvector = EigenValues( omega )
+        print(eigenvector)
+        
+        
+        
+
         
         
 if __name__ == '__main__':

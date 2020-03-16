@@ -1,8 +1,12 @@
 from sys import stdin
 from classicalToQuantum import *
+import numpy as np
+from numpy import linalg as Alg
+## Tema: observables del libro, Quantum Computing for Computer Scientists
 
 
 def Length( vect ):
+    
     acu = 0
     for x in range( len( vect )):
         acu += (module(vect[x]))**2
@@ -49,6 +53,24 @@ def variance( psi, omega):
     deltaPsi = DeltaPsi( omega ,[expectedValue ,0.0])
     matrixOfVariance = multiplicaMat( deltaPsi, deltaPsi)
     return matrixPsi( matrixOfVariance,psi )
+
+
+def describeAnObservable( psi, matrix ):
+    if ( isHermitan( matrix )):
+        mean = float("{:.2f}".format(OmegaPsi( psi, matrix ))[:-1])
+        
+        return [variance( psi, matrix),mean]
+    return None
+
+
+def EigenValues( omega ):
+    # x Eigenvalor, v Eigenvector = Alg.eig(matrix), donde Alg es la libreria linalg 
+    observable = np.array(omega)
+    (eigenValues,eigenvector) = Alg.eig(observable)
+    return [[eigenValues[x].real,eigenValues[x].imag ] for x in range( len( eigenValues ) )],eigenvector
+            
+
+    
     
 
 
