@@ -35,7 +35,7 @@ class quantumTheoryTest(unittest.TestCase):
 
     def testProbability( self ):
         prob = [ [-3,-1],[0,-2],[0,1],[2,0]];
-        self.assertEqual( probability(prob, 2 ),0.0526);
+        self.assertEqual( probability(prob, 2 ),0.05);
 
     def testVariance( self ):
         raiz = math.sqrt(2)/2;
@@ -61,13 +61,9 @@ class quantumTheoryTest(unittest.TestCase):
          [-3.5, 1j, 0.5j, 0]]
 
         eigenValues,eigenvector = EigenValues( omega )
-        print(eigenvector)
-        
-        
         
 
-        
-        
+
 if __name__ == '__main__':
     unittest.main()
 
