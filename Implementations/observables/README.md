@@ -12,11 +12,17 @@ Cada observable puede pensarse como una pregunta específica que planteamos al s
 ## Empezando
 El siguiente programa posee las siguientes funciones en el archivo llamado :
 
-- Calcular la probabilidad de encontrarlo en una posición en particular.El sistema puede recibir dos vectores y ------- Calcular la probabilidad de transitar de el uno al otro después de hacer la observación
+- Calcular la probabilidad de transitar de el uno al otro después de hacer la observación
 - Operacion Bra
 - Normalizacion de vectores
 - Calcular los ve
 - Observable y la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
+- ejercicios 4.3.1, 4.3.2, 4.4.1, 4.4.2,  4.5.2 y 4.5.3 del libro.
+
+
+**Explicación de ejercicios 4.5.2**
+
+**Explicación de ejercicios 4.5.3**
 
 ### Pre-requisitos
 
