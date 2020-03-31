@@ -4,7 +4,7 @@
 En este programa introduciremos los observables, los cuales pueden ser vistos como las cantidades que pueden ser observadas en cada estado del espacio de estados, de hecho cada observable puede pensarse como :
 
 Cada observable puede pensarse como una pregunta específica que planteamos al sistema:
-*si el sistema se encuentra actualmente en algún estado dado |ψ>, ¿qué valores podemos observar?*
+*si el sistema se encuentra actualmente en algún estado dado **|ψ>**, ¿qué valores podemos observar?*
 
 
 
